@@ -85,7 +85,7 @@ async function getQuote(){
     )
 
     const quote = await Moralis.Plugins.oneInch.quote({
-        chain: 'eth', // The blockchain you want to use (eth/bsc/polygon)
+        chain: 'bsc', // The blockchain you want to use (eth/bsc/polygon)
         fromTokenAddress: currentTrade.from.address, // The token you want to swap
         toTokenAddress: currentTrade.to.address, // The token you want to receive
         amount: amount,
