@@ -6,6 +6,10 @@
   border-radius: 20px;
   box-shadow: 0 0 5px black;
 }
+.body {
+  background-color: hsl(110, 100%, 50%);
+}
+
 .swapbox_select {
   width: 50%;
   float: left;
@@ -22,7 +26,7 @@
   padding: 5px 0;
 }
 .token_select:hover {
-  background-color: #464646;
+  background-color: rgb(255, 255, 255);
   cursor: pointer;
 }
 .token_list_img,
@@ -30,7 +34,7 @@
   width: 40px;
 }
 .modal-body {
-  height: 600px;
+  height: 300px;
   overflow: scroll;
 }
 .token_row {
