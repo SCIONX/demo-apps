@@ -15,10 +15,6 @@ async function init(){
     }
 }
 
-function buycrypto(){Moralis.Plugins.fiat.buy()}
-    
-
-
 async function listAvailableTokens(){
     const result = await Moralis.Plugins.oneInch.getSupportedTokens({
         chain: 'bsc', // The blockchain you want to use (eth/bsc/polygon)
